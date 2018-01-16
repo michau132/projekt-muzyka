@@ -1,0 +1,73 @@
+
+.main-hero__main-banner {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.main-hero__main-banner-text {
+  font-size: 19px;
+  color: rgba(white, 0.35);
+  text-align: center;
+  margin: 65px 0;
+  max-width: 840px;
+}
+.main-hero__main-banner-btn {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 50px;
+    border: 1px solid white;
+    background: rgba(white, 0.08);
+    border-radius: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s all;
+
+    &:hover {
+      background: $colorPrimary;
+      border-color: $colorPrimary;
+      color: #333333;
+    }
+}
+
+
+
+.main-hero__main-banner-title svg {
+  min-width:800px;
+  
+  @media only screen and (max-width: 800px) {
+    min-width: 700px;
+  }
+  @media only screen and (max-width: 700px) {
+    min-width: 600px;
+  }
+  @media only screen and (max-width: 600px) {
+    min-width: 500px;
+  }
+}
+.main-hero__main-banner-title .st0 {fill:none; fill-opacity:0; stroke:#000000; stroke-miterlimit:10; stroke-dasharray:703,0;}
+.main-hero__main-banner-title .st1 {stroke-dasharray: 270; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:270; animation:animMainBannerStroke 0.5s 0s   1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st2 {stroke-dasharray: 310; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:310; animation:animMainBannerStroke 0.5s 0.3s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st3 {stroke-dasharray: 375; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:375; animation:animMainBannerStroke 0.5s 0.6s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st4 {stroke-dasharray: 330; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:330; animation:animMainBannerStroke 0.5s 0.9s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st5 {stroke-dasharray: 260; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:260; animation:animMainBannerStroke 0.5s 1.2s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st6 {stroke-dasharray: 465; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:465; animation:animMainBannerStroke 0.5s 1.5s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st7 {stroke-dasharray: 330; stroke: #00FFE4; fill: #00FFE4; stroke-dashoffset:330; animation:animMainBannerStroke 0.5s 1.8s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st8 {stroke-dasharray: 705; stroke: #ffffff; fill: #ffffff; stroke-dashoffset:705; animation:animMainBannerStroke 0.5s 2.1s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st9 {stroke-dasharray: 400; stroke: #ffffff; fill: #ffffff; stroke-dashoffset:400; animation:animMainBannerStroke 0.5s 2.4s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st10 {stroke-dasharray: 360;stroke: #ffffff; fill: #ffffff; stroke-dashoffset:360; animation:animMainBannerStroke 0.5s 2.7s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st11 {stroke-dasharray: 180;stroke: #ffffff; fill: #ffffff; stroke-dashoffset:180; animation:animMainBannerStroke 0.5s 3s   1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+.main-hero__main-banner-title .st12 {stroke-dasharray: 370;stroke: #ffffff; fill: #ffffff; stroke-dashoffset:370; animation:animMainBannerStroke 0.5s 3.3s 1 linear forwards, animMainBannerTitleFill 1s 4s 1 linear forwards;}
+
+@keyframes animMainBannerStroke {
+  100% {stroke-dashoffset:0;}
+}
+@keyframes animMainBannerTitleFill {
+  100% {fill-opacity:0.8;}
+}
+
+

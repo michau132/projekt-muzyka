@@ -1,0 +1,44 @@
+.box-photo {
+  display: block;
+  position:relative;
+  margin-bottom: 40px;
+}
+.box-photo img {
+  display:block;
+  width: 100%;
+  height: auto;
+}
+.box-photo:hover .box-photo-overlay {
+  opacity: 1;
+}
+.box-photo-overlay {
+  opacity:0;
+  background: rgba(#000, 0.8);
+  transition: 0.5s all;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height:2px;
+    background-color: #ffffff;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    width: 70px;
+    height:2px;
+    background-color: #ffffff;
+  }
+}

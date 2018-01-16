@@ -1,0 +1,27 @@
+.main-hero__main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 100;
+}
+.main-hero__main-header.sticky {
+  background: #000;
+  box-shadow: 0 1px 3px rgba(#000, 0.2);
+  transition: 1s all;
+}
+
+.main-hero__main-header__main-logo {
+  padding: 30px 10px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 680px)  {
+  .main-hero__main-header {
+    flex-direction: column;
+  }
+}
+
