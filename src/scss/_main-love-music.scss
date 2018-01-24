@@ -40,3 +40,26 @@
   max-width: 300px;
 }
 
+.slick-arrow {
+  font-size: 0;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color:#292D2E;
+  font-family: 'FontAwesome';
+  opacity:1;
+  font-size:25px;
+}
+
+.slick-prev:before {
+  content: '\f053';
+}
+.slick-next:before {
+  content: '\f054';
+}
+
