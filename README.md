@@ -1,4 +1,5 @@
-#projekt-muzyka
+
+
 "Projekt-muzyka" workshop is a one page website based on PSD template.
 
 Preview: https://michau132.github.io/projekt-muzyka/dist/
